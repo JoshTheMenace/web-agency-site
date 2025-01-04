@@ -54,7 +54,7 @@ const About = () => {
               </h2>
               <p>
                 At Gifu Designs, we transform ideas into visually stunning and
-                highly functional websites. Based in Provo, Utah, our team
+                highly functional websites. Based in Utah, our team
                 specializes in building custom designs that capture your brand’s
                 essence and elevate your online presence.
               </p>
