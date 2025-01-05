@@ -34,7 +34,7 @@ const Pricing = () => {
             {/* <!-- Pricing Item --> */}
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                $100{" "}
+                $139{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
                   /month
                 </span>
@@ -47,19 +47,19 @@ const Pricing = () => {
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Fast Design: Get your website up and running in 1-3 days.
+                    Get your website up and running in 1-3 days.
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                     Up to 5 pages of content (Home, About, Services, Contact, Blog).
                   </li>
-                  <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Basic SEO: Meta tags, descriptions, and alt text for images.
+                  <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                    Basic SEO
                   </li>
-                  <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Google Analytics: Basic integration for tracking website traffic.
+                  <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                    Basic alalytics integration for tracking website traffic.
                   </li>
-                  <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Domain Connection: Assistance with connecting to an existing domain.
+                  <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                    Assistance with connecting an existing domain or purchasing a new one.
                   </li>
                 </ul>
               </div>
@@ -113,7 +113,7 @@ const Pricing = () => {
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                     Exclusive Support
                   </li>
-                  <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
+                  <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                     Blog integration with a CMS or eCommerce functionality for up to 30 products.
                   </li>
                 </ul>
@@ -142,12 +142,12 @@ const Pricing = () => {
 
             {/* <!-- Pricing Item --> */}
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
-              {/* <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                $100{" "}
-                <span className="text-regular text-waterloo dark:text-manatee">
+              <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+                OR{" "}
+                {/* <span className="text-regular text-waterloo dark:text-manatee">
                   /month
-                </span>
-              </h3> */}
+                </span> */}
+              </h3>
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
                 Custom Plan
               </h4>
@@ -159,7 +159,7 @@ const Pricing = () => {
                   Fully Custom Design: Bespoke design crafted from scratch.
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                  Unlimited Pages: Create as many pages as needed.
+                    Unlimited Pages: Create as many pages as needed.
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                     Exclusive Support
