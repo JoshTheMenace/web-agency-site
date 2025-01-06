@@ -56,10 +56,10 @@ const Pricing = () => {
                     Basic SEO
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Basic alalytics integration for tracking website traffic.
+                    Alalytics integration for tracking website traffic.
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Assistance with connecting an existing domain or purchasing a new one.
+                    Assistance connecting an existing domain or purchasing a new one.
                   </li>
                 </ul>
               </div>
