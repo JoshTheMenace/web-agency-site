@@ -61,18 +61,20 @@ const Contact = () => {
               </h2>
 
               <form
-                action="https://formbold.com/s/unique_form_id"
+                action="https://formbold.com/s/92Wkx"
                 method="POST"
               >
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
                     type="text"
+                    name="name"
                     placeholder="Full name"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
 
                   <input
                     type="email"
+                    name="email"
                     placeholder="Email address"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
@@ -81,12 +83,14 @@ const Contact = () => {
                 <div className="mb-12.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
                     type="text"
+                    name="subject"
                     placeholder="Subject"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
 
                   <input
                     type="text"
+                    name="phone"
                     placeholder="Phone number"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
@@ -94,6 +98,7 @@ const Contact = () => {
 
                 <div className="mb-11.5 flex">
                   <textarea
+                    name="message"
                     placeholder="Message"
                     rows={4}
                     className="w-full border-b border-stroke bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white"
@@ -101,7 +106,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex flex-wrap gap-4 xl:justify-between ">
-                  <div className="mb-4 flex md:mb-0">
+                  {/* <div className="mb-4 flex md:mb-0">
                     <input
                       id="default-checkbox"
                       type="checkbox"
@@ -131,7 +136,7 @@ const Contact = () => {
                       By clicking Checkbox, you agree to use our “Form” terms
                       And consent cookie usage in browser.
                     </label>
-                  </div>
+                  </div> */}
 
                   <button
                     aria-label="send message"
@@ -182,14 +187,14 @@ const Contact = () => {
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Loaction
                 </h3>
-                <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
+                <p>Provo, Utah</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="mailto:support@gifu.dev">support@gifu.dev</a>
                 </p>
               </div>
               <div>
@@ -197,7 +202,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+009 42334 6343 843</a>
+                  <a href="tel:3852003778">(385) 200-3778</a>
                 </p>
               </div>
             </motion.div>

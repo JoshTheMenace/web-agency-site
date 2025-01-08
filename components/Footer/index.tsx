@@ -29,24 +29,24 @@ const Footer = () => {
                 className="animate_top w-1/2 lg:w-1/4"
               >
                 <a href="/" className="relative">
-                  <Image
+                  {/* <Image
                     width={110}
                     height={80}
                     src="/images/logo/logo-light.svg"
                     alt="Logo"
                     className="dark:hidden"
-                  />
+                  /> */}
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src="/images/logo/gifu-logo-transparent.png"
                     alt="Logo"
-                    className="hidden dark:block"
+                    className=""
                   />
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Designing Digital Experiences That Inspire and Empower
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
@@ -86,7 +86,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Home
@@ -94,15 +94,15 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/#faqs"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Product
+                        FAQs
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/#pricing"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Pricing
@@ -134,25 +134,25 @@ const Footer = () => {
                   </h4>
 
                   <ul>
-                    <li>
+                    {/* <li>
                       <a
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Company
                       </a>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <a
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Press media
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
-                        href="#"
+                        href="/blog"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Our Blog
@@ -160,7 +160,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/support"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Contact Us
@@ -187,9 +187,9 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                  <a href="https://storyset.com/business">Business illustrations by Storyset</a>
-                  </h4>
+                  <p className="mb-9 text-item title2 font-medium text-black dark:text-white">
+                    <a href="https://storyset.com/business">Illustrations by Storyset</a>
+                  </p>
                   <p className="mb-4 w-[90%]">
                     Subscribe to receive future updates
                   </p>
@@ -258,16 +258,11 @@ const Footer = () => {
               <ul className="flex items-center gap-8">
                 <li>
                   <a href="#" className="hover:text-primary">
-                    English
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-primary">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="/support" className="hover:text-primary">
                     Support
                   </a>
                 </li>
@@ -293,7 +288,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} Gifu LC. All rights reserved
               </p>
             </motion.div>
 
