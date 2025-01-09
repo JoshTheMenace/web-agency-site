@@ -14,7 +14,7 @@ const Pricing = () => {
               headerInfo={{
                 title: `PRICING PLANS`,
                 subtitle: `Simple Pricing`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                description: ``,
               }}
             />
           </div>
@@ -50,13 +50,13 @@ const Pricing = () => {
                     Get your website up and running in 1-3 days.
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Up to 5 pages of content (Home, About, Services, Contact, Blog).
+                    Few pages of content depending on your needs.
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                     Basic SEO
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Alalytics integration for tracking website traffic.
+                    Analytics integration for tracking website traffic.
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                     Assistance connecting an existing domain or purchasing a new one.
@@ -64,7 +64,7 @@ const Pricing = () => {
                 </ul>
               </div>
 
-              <button
+              <a href="https://cal.com/gifu-dev/30min"
                 aria-label="Get the Plan button"
                 className="group/btn inline-flex items-center gap-2.5 font-medium text-primary transition-all duration-300 dark:text-white dark:hover:text-primary"
               >
@@ -82,7 +82,7 @@ const Pricing = () => {
                     fill="currentColor"
                   />
                 </svg>
-              </button>
+              </a>
             </div>
 
             {/* <!-- Pricing Item --> */}
@@ -92,7 +92,7 @@ const Pricing = () => {
               </div>
 
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                $259{" "}
+                $219{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
                   /month
                 </span>
@@ -111,6 +111,9 @@ const Pricing = () => {
                   SaaS Integration: Email marketing tools, CRM platforms, Payment gateways and booking systems.
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                    Professional SEO
+                  </li>
+                  <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                     Exclusive Support
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
@@ -119,7 +122,7 @@ const Pricing = () => {
                 </ul>
               </div>
 
-              <button
+              <a href="https://cal.com/gifu-dev/30min"
                 aria-label="Get the Plan button"
                 className="group/btn inline-flex items-center gap-2.5 font-medium text-primary transition-all duration-300 dark:text-white dark:hover:text-primary"
               >
@@ -137,7 +140,7 @@ const Pricing = () => {
                     fill="currentColor"
                   />
                 </svg>
-              </button>
+              </a>
             </div>
 
             {/* <!-- Pricing Item --> */}
@@ -170,7 +173,7 @@ const Pricing = () => {
                 </ul>
               </div>
 
-              <button
+              <a href="https://cal.com/gifu-dev/30min"
                 aria-label="Get the Plan button"
                 className="group/btn inline-flex items-center gap-2.5 font-medium text-primary transition-all duration-300 dark:text-white dark:hover:text-primary"
               >
@@ -188,7 +191,7 @@ const Pricing = () => {
                     fill="currentColor"
                   />
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
         </div>
