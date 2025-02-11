@@ -36,7 +36,7 @@ const Footer = () => {
                     alt="Logo"
                     className="dark:hidden"
                   /> */}
-                  <Image
+                  <img
                     width={110}
                     height={80}
                     src="/images/logo/gifu-logo-transparent.png"

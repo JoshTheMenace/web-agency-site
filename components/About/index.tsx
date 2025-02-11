@@ -21,17 +21,17 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_left relative mx-auto hidden aspect-square md:block md:w-1/2"
             >
-              <Image
+              <img
                 src="/images/about/aboutlight.gif"
                 alt="About Gifu Designs"
                 className="dark:hidden"
-                fill
+                
               />
-              <Image
+              <img
                 src="/images/about/aboutdark.gif"
                 alt="About Gifu Designs"
                 className="hidden dark:block"
-                fill
+                
               />
             </motion.div>
             <motion.div
@@ -202,17 +202,17 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_right relative mx-auto hidden aspect-square md:block md:w-1/2"
             >
-              <Image
+              <img
                 src="/images/about/aboutlight2.gif"
                 alt="Hosting and Services"
                 className="dark:hidden"
-                fill
+                
               />
-              <Image
+              <img
                 src="/images/about/aboutdark2.gif"
                 alt="Hosting and Services"
                 className="hidden dark:block"
-                fill
+                
               />
             </motion.div>
           </div>
